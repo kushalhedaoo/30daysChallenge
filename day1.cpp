@@ -1,3 +1,5 @@
+
+// using heaps(min heap)
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -12,7 +14,8 @@ public:
         return pq.top();
     }
 };
-
+// -------------------------------------------------------------------------------------------------
+// using sorting
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
